@@ -17,11 +17,11 @@
 //  - jika x habis dibagi 4 dan tidak habis dibagi 100 maka tahun tersebut kabisat
 //  ---------Pseudocode-----------
 //  - SET tahun EQUALS TO x
-//  - IF x modulus 400 EQUALS TO 0
+//  - IF x modulus 400 EQUALS TO 0 THEN
 //  - DISPLAY tahun x adalah tahun kabisat
-//  - ELSE IF x modulus 100 EQUALS TO 0
+//  - ELSE IF x modulus 100 EQUALS TO 0 THEN
 //  - DISPLAY x adalah tahun kabisat
-//  - IF ELSE x modulus 4 EQUALS TO 0
+//  - IF ELSE x modulus 4 EQUALS TO 0 THEN
 //  - DISPLAY x adalah tahun kabisat
 //  - ELSE DISPLAY tahun x bukan tahun kabisat
 //  - END IF
@@ -39,10 +39,13 @@
 //  - jika kuku siswa/siswi panjang siswa/siswi dihukum
 //  - jika kuku siswa/siswi tidak panjang siswa/siswi mendapat pujian
 //  ---------Pseudocode-----------
-//  - SET kuku EQUALS TO x
-//  - IF x EQUALS TO PANJANG
+//  - SET kuku EQUALS TO x 
+//  - SET siswa EQUALS TO 40
+//  - FOR ( SET i EQUALS TO 1 i < siswa i INCREMENT COUNTER )
+//  - IF x EQUALS TO PANJANG THEN
 //  - DISPLAY SISWA MENDAPAT HUKUMAN
-//  - ELSE IF x EQUALS TO PENDEK
+//  - ELSE IF x EQUALS TO PENDEK THEN
 //  - DISPLAY SISWA MENDAPAT PUJIAN
 //  - ELSE DISPLAY KATEGORI KUKU HANYA PANJANG / PENDEK
 //  - END IF
+//  - END FOR
