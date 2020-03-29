@@ -7,7 +7,7 @@
 //  ---------Pseudocode-----------
 //  - SET m EQUALS TO 600
 //  - SET a EQUALS TO 2
-//  - SET m*a EQUALS TO ΣF
+//  - SET ΣF EQUALS TO m*a
 //  - DISPLAY ΣF
 
 //2. ---------Algorithm---------- TAHUN KABISAT
@@ -32,6 +32,9 @@
 //  - SET baju EQUALS TO i
 //  - FOR ( SET i EQUALS TO 1, i < 21, i INCREMENT COUNTER)
 //  - DISPLAY i
+//  - IF i EQUALS TO 20 THEN
+//  - DISPLAY mesin menyala
+//  - ELSE DISPLAY jumlah baju baru sebanyak i belum mencapai 20
 //  - END FOR
 
 //4. ---------Algorithm---------- PERIKSA KUKU
